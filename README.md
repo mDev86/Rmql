@@ -1,6 +1,9 @@
 Redis message queue light
 ==========================
+
 Implementation message queue based [BackgroundService](https://docs.microsoft.com/ru-ru/dotnet/architecture/microservices/multi-container-microservice-net-applications/background-tasks-with-ihostedservice) and [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)
+
+[![Version](https://img.shields.io/nuget/v/Rmql)](https://www.nuget.org/packages/Rmql)
 
 ### Usage
 1. Create DTO model for in\out queue message
